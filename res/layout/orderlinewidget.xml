@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="608px"
+    android:layout_height="46px">
+
+    <TextView
+        android:id="@+id/orderLineTextName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="32px"
+        android:text="新西兰小羔羊"
+        android:textSize="30px" 
+        android:textStyle="bold" 
+        android:background="#00000000" 
+        android:textColor="#ff939494"/>
+
+    <TextView
+        android:id="@+id/orderLineTextCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(12345)"
+        android:textSize="18px"
+        android:textStyle="bold" 
+        android:layout_toRightOf="@+id/orderLineTextName" 
+        android:layout_centerVertical="true" 
+        android:layout_marginLeft="10px"
+        android:textColor="#ff838484"/>
+    
+    <Button
+        android:id="@+id/orderLineButtonDelete"
+        android:layout_width="64px"
+        android:layout_height="40px"
+        android:layout_alignParentRight="true"
+        android:text="@string/delete"
+        android:gravity="center" 
+        android:textSize="20px" 
+        android:layout_centerVertical="true" 
+        android:background="#00000000" 
+        android:textColor="#ff1c81af"/>
+
+    <TextView
+        android:id="@+id/orderLineTextPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="370px"
+        android:text="229" 
+        android:textSize="22px" 
+        android:layout_alignParentLeft="true" 
+        android:background="#00000000" 
+        android:textColor="#ffff0000"/>
+
+    <EditText
+        android:id="@+id/orderLineEditQty"
+        android:layout_width="32px"
+        android:layout_height="32px"
+        android:ems="2"
+        android:inputType="number" 
+        android:layout_centerVertical="true" 
+        android:cursorVisible="false"
+        android:fitsSystemWindows="false"
+        android:focusable="false"
+        android:layout_toRightOf="@+id/orderLineButtonLeft" 
+        android:background="#00000000" 
+        android:gravity="center" 
+        android:textColor="#ff939494">
+    </EditText>
+
+    <ImageButton
+        android:id="@+id/orderLineButtonLeft"
+        android:layout_width="22px"
+        android:layout_height="40px"
+        android:layout_centerVertical="true" 
+        android:layout_marginLeft="440px" 
+        android:background="@drawable/orderleft" 
+        android:layout_alignParentLeft="true"
+        />
+
+    <ImageButton
+        android:id="@+id/orderLineButtonRight"
+        android:layout_width="22px"
+        android:layout_height="40px"
+        android:layout_toRightOf="@+id/orderLineEditQty"
+        android:background="@drawable/orderright"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>

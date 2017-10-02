@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">靠谱</string>
+    <string name="currencyName">RMB</string>
+    <string name="delete">删除</string>
+    <string name="clear">清除</string>
+    <string name="total">总 计</string>
+    <string name="myorder">我的菜单</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="erase_order_confirmation">确认清除您的订单？</string>
+    <string name="enter_admin_password">请输入管理员密码</string>
+    <string name="enter_server_url">请输入服务器地址</string>
+
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eMenu coverimg="Cover.png" textcolor="#ffffffff" backgroundcolor1="0x50000000" backgroundcolor2="0x00000000" background="background.png" showcatalogname="true" showitemcode="true" >
+	<catalog id="1" name = "厨师推荐" icon="Catalog1.png" icond="Catalog1d.png">
+		<page id="1" background="saladbk.jpg">
+		<item id="1" type="quarterpage" name="葱爆羊肉" description="美味可口美味可口美味可口美味可口美味可口美味可口美味可口美味可口美味可口美味可口美味可口美味可口美味可口" price="29" img="salad1.png"/>		 
+		<item id="1" type="quarterpage" name="葱爆羊肉" description="美味可口美味可口美味可口美味可口美味可口美味可口美味可口美味可口美味可口美味可口美味可口美味可口美味可口" price="29" img="salad1.png"/>		 
+		</page>
+		<page id="2" background="background.png">
+		<item id="1" type="quarterpage" name="葱爆羊肉" description="美味可口美味可口美味可口美味可口美味可口美味可口美味可口美味可口美味可口美味可口美味可口美味可口美味可口" price="29" img="salad1.png"/>		 
+		<item id="1" type="quarterpage" name="葱爆羊肉" description="美味可口美味可口美味可口美味可口美味可口美味可口美味可口美味可口美味可口美味可口美味可口美味可口美味可口" price="29" img="salad1.png"/>		 
+		</page>
+	</catalog>
+	<catalog id="2" name = "素菜精品" icon="Catalog2.png" icond="Catalog2d.png">
+		<page id="4" background="background.png">
+		<item id="1" type="quarterpage" name="葱爆羊肉" description="美味可口美味可口美味可口美味可口美味可口美味可口美味可口美味可口美味可口美味可口美味可口美味可口美味可口" price="29" img="salad1.png"/>		 
+		<item id="1" type="quarterpage" name="葱爆羊肉" description="美味可口美味可口美味可口美味可口美味可口美味可口美味可口美味可口美味可口美味可口美味可口美味可口美味可口" price="29" img="salad1.png"/>		 
+		</page>
+	</catalog>
+</eMenu>

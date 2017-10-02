@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="608px"
+    android:layout_height="58px" >
+
+    <TextView
+        android:id="@+id/textOnlyTextName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="32px"
+        android:text="葱爆羊肉"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30px" android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textOnlyTextCurrency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/textOnlyTextName"
+        android:text="@string/currencyName"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:textSize="22px"
+        android:layout_alignParentLeft="true" 
+        android:layout_marginLeft="300px"/>
+
+    <TextView
+        android:id="@+id/textOnlyTextPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/textOnlyTextCurrency"
+        android:text="30.00"
+        android:textStyle="bold" 
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="45px" 
+        android:layout_marginLeft="10px"/>
+
+    <TextView
+        android:id="@+id/textOnlyTextUnit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/textOnlyTextPrice"
+        android:text="每份"
+        android:textStyle="bold" 
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="22px" 
+        android:layout_marginLeft="10px"/>
+
+    <com.today.emenu.SelectItemWidget
+        android:id="@+id/textOnlySelectItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" 
+        android:layout_marginRight="20px">
+    </com.today.emenu.SelectItemWidget>
+
+    <TextView
+        android:id="@+id/textOnlyTextCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(12345)"
+        android:textSize="18px"
+        android:textStyle="bold" android:layout_toRightOf="@id/textOnlyTextName" android:layout_centerVertical="true" android:layout_marginLeft="10px"/>
+
+</RelativeLayout>

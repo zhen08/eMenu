@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="768px"
+    android:layout_height="932px" >
+
+    <TextView
+        android:id="@+id/wholePageTextCurrency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="32px"
+        android:layout_marginTop="64px"
+        android:text="@string/currencyName"
+        android:textAppearance="?android:attr/textAppearanceLarge" android:textSize="22px"/>
+
+    <TextView
+        android:id="@+id/wholepageTextPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10px"
+        android:layout_toRightOf="@+id/wholePageTextCurrency"
+        android:text="30.00"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="45px" 
+        android:textStyle="bold" 
+        android:layout_alignParentTop="true" 
+        android:layout_marginTop="54px"/>
+
+    <TextView
+        android:id="@+id/wholepageTextUnit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10px"
+        android:layout_toRightOf="@+id/wholepageTextPrice"
+        android:text="每份"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="22px" 
+        android:textStyle="bold" 
+        android:layout_marginTop="64px"/>
+
+    <TextView
+        android:id="@+id/wholePageTextName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/wholePageTextCurrency"
+        android:layout_below="@id/wholePageTextCurrency"
+        android:layout_marginTop="15px"
+        android:text="葱爆羊肉"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30px" android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/wholePageTextDescription"
+        android:layout_width="544px"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/wholePageTextName"
+        android:layout_below="@+id/wholePageTextName"
+        android:layout_marginTop="10px"
+        android:text="大葱加羊肉，味道鲜美。Text	大葱加羊肉，味道鲜美。Text	大葱加羊肉，味道鲜美。Text	大葱加羊肉，味道鲜美。Text	大葱加羊肉，味道鲜美。Text	大葱加羊肉，味道鲜美。Text	大葱加羊肉，味道鲜美。Text	大葱加羊肉，味道鲜美。Text	大葱加羊肉，味道鲜美。Text	大葱加羊肉，味道鲜美。Text	大葱加羊肉，味道鲜美。" />
+
+    <com.today.emenu.SelectItemWidget
+        android:id="@+id/wholePageSelectItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/wholePageTextDescription"
+        android:layout_below="@+id/wholePageTextDescription"
+        android:layout_marginTop="10px" >
+    </com.today.emenu.SelectItemWidget>
+
+    <TextView
+        android:id="@+id/wholePageTextCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/wholePageTextName"
+        android:text="(12345)"
+        android:textSize="18px"
+        android:textStyle="bold" android:layout_marginLeft="10px" android:layout_alignBaseline="@id/wholePageTextName"/>
+
+</RelativeLayout>

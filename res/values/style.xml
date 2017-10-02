@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="boldText">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+    </style>
+
+    <style name="normalText">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#FFC0C0C0</item>
+    </style>
+</resources>

@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xdb="http://www.borland.com/schemas/delphi/10.0/XMLDataBinding">
+  <xs:element name="eMenu" type="eMenuType"/>
+  <xs:complexType name="eMenuType"><xs:annotation>
+      <xs:appinfo xdb:docElement="eMenu"/>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="catalog" type="catalogType" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="coverimg" type="xs:string"/>
+    <xs:attribute name="textcolor" type="xs:string"/>
+    <xs:attribute name="backgroundcolor1" type="xs:string"/>
+    <xs:attribute name="backgroundcolor2" type="xs:string"/>
+    <xs:attribute name="background" type="xs:string"/>
+    <xs:attribute name="showcatalogname" type="xs:string"/>
+    <xs:attribute name="showitemcode" type="xs:string"/>
+  </xs:complexType>
+  <xs:complexType name="catalogType">
+    <xs:sequence>
+      <xs:element name="page" type="pageType" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:integer"/>
+    <xs:attribute name="name" type="xs:string"/>
+    <xs:attribute name="icon" type="xs:string"/>
+    <xs:attribute name="icond" type="xs:string"/>
+  </xs:complexType>
+  <xs:complexType name="pageType">
+    <xs:sequence>
+      <xs:element name="item" type="itemType" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:integer"/>
+    <xs:attribute name="background" type="xs:string"/>
+  </xs:complexType>
+  <xs:complexType name="itemType">
+    <xs:sequence/>
+    <xs:attribute name="id" type="xs:integer"/>
+    <xs:attribute name="type" type="xs:string"/>
+    <xs:attribute name="name" type="xs:string"/>
+    <xs:attribute name="description" type="xs:string"/>
+    <xs:attribute name="price" type="xs:integer"/>
+    <xs:attribute name="img" type="xs:string"/>
+  </xs:complexType>
+  <xs:complexType name="itemType2"><xs:annotation>
+      <xs:appinfo xdb:bound="False"/>
+    </xs:annotation>
+    <xs:sequence/>
+    <xs:attribute name="id" type="xs:integer"/>
+    <xs:attribute name="type" type="xs:string"/>
+    <xs:attribute name="name" type="xs:string"/>
+    <xs:attribute name="description" type="xs:string"/>
+    <xs:attribute name="price" type="xs:integer"/>
+    <xs:attribute name="img" type="xs:string"/>
+  </xs:complexType>
+  <xs:complexType name="itemType22"><xs:annotation>
+      <xs:appinfo xdb:bound="False"/>
+    </xs:annotation>
+    <xs:sequence/>
+    <xs:attribute name="id" type="xs:integer"/>
+    <xs:attribute name="type" type="xs:string"/>
+    <xs:attribute name="name" type="xs:string"/>
+    <xs:attribute name="description" type="xs:string"/>
+    <xs:attribute name="price" type="xs:integer"/>
+    <xs:attribute name="img" type="xs:string"/>
+  </xs:complexType>
+  <xs:complexType name="itemType222"><xs:annotation>
+      <xs:appinfo xdb:bound="False"/>
+    </xs:annotation>
+    <xs:sequence/>
+    <xs:attribute name="id" type="xs:integer"/>
+    <xs:attribute name="type" type="xs:string"/>
+    <xs:attribute name="name" type="xs:string"/>
+    <xs:attribute name="description" type="xs:string"/>
+    <xs:attribute name="price" type="xs:integer"/>
+    <xs:attribute name="img" type="xs:string"/>
+  </xs:complexType>
+  <xs:complexType name="itemType2222"><xs:annotation>
+      <xs:appinfo xdb:bound="False"/>
+    </xs:annotation>
+    <xs:sequence/>
+    <xs:attribute name="id" type="xs:integer"/>
+    <xs:attribute name="type" type="xs:string"/>
+    <xs:attribute name="name" type="xs:string"/>
+    <xs:attribute name="description" type="xs:string"/>
+    <xs:attribute name="price" type="xs:integer"/>
+    <xs:attribute name="img" type="xs:string"/>
+  </xs:complexType>
+  <xs:complexType name="itemType22222"><xs:annotation>
+      <xs:appinfo xdb:bound="False"/>
+    </xs:annotation>
+    <xs:sequence/>
+    <xs:attribute name="id" type="xs:integer"/>
+    <xs:attribute name="type" type="xs:string"/>
+    <xs:attribute name="name" type="xs:string"/>
+    <xs:attribute name="description" type="xs:string"/>
+    <xs:attribute name="price" type="xs:integer"/>
+    <xs:attribute name="img" type="xs:string"/>
+  </xs:complexType>
+</xs:schema>

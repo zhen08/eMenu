@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="vertical" >
+
+    <com.today.emenu.QuarterPageWidget
+        android:id="@+id/quarterPageWidget1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="102dp"
+        android:layout_marginTop="36dp" >
+
+        <com.today.emenu.QuarterPageWidget
+            android:id="@+id/quarterPageWidget2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="266dp" >
+
+        </com.today.emenu.QuarterPageWidget>
+
+    </com.today.emenu.QuarterPageWidget>
+
+</RelativeLayout>

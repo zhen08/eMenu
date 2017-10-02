@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="608px"
+    android:layout_height="232px"
+    tools:ignore="PxUsage" >
+
+    <ImageView
+        android:id="@+id/quarterPageImg"
+        android:layout_width="264px"
+        android:layout_height="232px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/food_256" />
+
+    <TextView
+        android:id="@+id/quarterPageTextCurrency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="32px"
+        android:layout_marginTop="20px"
+        android:layout_toRightOf="@+id/quarterPageImg"
+        android:text="@string/currencyName"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="22px" />
+
+    <TextView
+        android:id="@+id/quarterPageTextName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/quarterPageTextCurrency"
+        android:layout_below="@+id/quarterPageTextCurrency"
+        android:layout_marginTop="15px"
+        android:text="葱爆羊肉"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30px"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/quarterPageTextDescription"
+        android:layout_width="290px"
+        android:layout_height="52px"
+        android:layout_alignLeft="@+id/quarterPageTextName"
+        android:layout_below="@+id/quarterPageTextName"
+        android:layout_marginTop="6px"
+        android:text="大葱加羊肉	大葱加羊肉，味道鲜美。Text	大葱加羊肉，羊肉，味道鲜美。Text	大葱加羊肉，味道鲜美。"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/quarterpageTextPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10px"
+        android:layout_marginTop="10px"
+        android:layout_toRightOf="@+id/quarterPageTextCurrency"
+        android:text="30.00"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="45px"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/quarterpageTextUnit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10px"
+        android:layout_marginTop="20px"
+        android:layout_toRightOf="@+id/quarterpageTextPrice"
+        android:text="每份"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="22px"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <com.today.emenu.SelectItemWidget
+        android:id="@+id/quarterPageSelectItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" 
+        android:layout_marginRight="20px">
+    </com.today.emenu.SelectItemWidget>
+    
+    <TextView
+        android:id="@+id/quarterPageTextCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/quarterPageTextName"
+        android:layout_alignBottom="@+id/quarterPageTextName"
+        android:layout_marginLeft="10px"
+        android:layout_toRightOf="@+id/quarterPageTextName"
+        android:text="(12345)"
+        android:textSize="18px"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>
